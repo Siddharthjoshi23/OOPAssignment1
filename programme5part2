@@ -1,0 +1,18 @@
+// Write a program for compoundInterest
+// program for compound interst
+#include<iostream>
+#include<math.h>
+using namespace std;
+ int main()
+{
+float p,r,t,ci;
+std::cout<<"Enter Principle Amount : ";
+	std::cin>>p;
+std::cout<<"Enter Rate of Interest : ";
+	std::cin>>r;
+std::cout<<"Enter time (in years) : ";
+	std::cin>>t;
+ci=p*pow((1+r/100),t);
+cout<<"\nCompound Interest = "<<ci;
+ return 0;
+}
