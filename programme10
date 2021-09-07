@@ -1,0 +1,24 @@
+// program for input three numbers and find greatest element
+#include <iostream>
+using namespace std;
+int main(){
+ int a,b,c;
+cout<<"Enter three numbers "<<endl;
+cout<<"enter the value of a "<<endl;
+cin>>a;
+cout<<"enter the value of b "<<endl;
+cin>>b;
+cout<<"enter the value of c "<<endl;
+cin>>c;
+if(a>=b && a>=c){
+    cout<<"a is greatest";
+}
+else if(b>=c && b>=a){
+    cout<<"b is greatest";
+}
+else{
+    cout<<"c is greatest";
+}
+cout<<""<<endl;
+    return 0;
+}
