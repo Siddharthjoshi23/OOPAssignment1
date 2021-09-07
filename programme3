@@ -1,0 +1,25 @@
+//Program 3 : Write a program for perform all arithmetic operations
+// Write a program for perform all arithmetic operations
+#include <iostream>
+using namespace std;
+int main()
+{
+    float a, b ;
+    float sum , sub , mul ,  div ,percent  ;
+ 
+   cout << "Enter number 1 = ";
+    cin >> a;
+    cout << "Enter number 2 = ";
+    cin >> b;
+    sum=a+b;
+    sub=a-b;
+    mul=a*b;
+    div=a/b;
+    percent=div*100;
+    cout << " Adiition of  "<< a <<" and "<< b << " is : " << sum<<std::endl ; 
+    cout << " Subtraction of "<< a <<" and "<< b << " is : " << sub<<std::endl ; 
+    cout << " Multiplication of "<< a <<" and "<< b << " is : " << mul<<std::endl ; 
+    cout << " Division of "<< a <<" and "<< b << " is : " << div<<std::endl ; 
+    cout << " Percent of  "<< a <<" and "<< b << " is : " << percent<<"%"<<std::endl ; 
+    return 0;
+}
