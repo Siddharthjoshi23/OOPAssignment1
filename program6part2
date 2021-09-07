@@ -1,0 +1,12 @@
+// program for convert temperature from  Fahrenheit to Celsius
+#include<iostream>
+using namespace std;
+int main()
+{
+    float f, c;
+    cout << "Enter the temperature in Fahrenheit: ";
+    cin >> ;
+    c=5.0*(f-32)/9.0;
+    cout << "The temperature in celciust : " << c << endl;
+    return 0;
+}
