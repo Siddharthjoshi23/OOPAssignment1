@@ -1,0 +1,17 @@
+//Program2: Write a program for calculate area and perimeter of circle
+// Write a program for calculate area and perimeter of circle 
+#include <iostream>
+int main()
+{float r, a ,p;
+     std::cout<<"Calculation of Area and Perimeter of circle :"<<std::endl;
+     std::cout << "Enter the radius of circle : ";
+     std::cin >> r;
+     a= 3.14*r*r;
+     std::cout << "Area of circle with radius "
+      << r << " is " << a<<std::endl;
+      
+     p= 2*3.14*r;
+     std::cout << "Area of circle with radius "
+     << r << " is " << p<<std::endl;
+     return 0;
+}
