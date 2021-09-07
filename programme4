@@ -1,0 +1,33 @@
+//Program 4 : Write a program for Btech Marksheet Calculation
+// Write a program for Marksheet of student 
+#include <iostream>
+int main()
+{float ds,oop,dm,ee,java,total,percentage;
+     std::cout<<"Btech Marksheet Calculations "<<std::endl;
+     std::cout<<"Enter the marks obtained in different subjects :-"<<std::endl;
+     std::cout << "Data Structure : ";
+     std::cin >> ds;
+     std::cout << "Object Oriented Programming : ";
+     std::cin >> oop;
+     std::cout << "Discrete Mathematics : ";
+     std::cin >> dm;
+     std::cout << "Environmental Engineering : ";
+     std::cin >> ee;
+     std::cout << "Java Programming : ";
+     std::cin >> java;
+     total=ds+oop+dm+ee+java;
+     percentage=total/500*100;
+     std::cout << "Total is "
+     << total <<std::endl;
+     std::cout << "Percentage is "
+     << percentage<<"%"<<std::endl;
+     if(percentage>=33)
+     {
+         std::cout<<"Result :- congratulations! you are pass";
+     }
+     else
+     {
+         std::cout<<"Sorry! you are fail";
+     }
+    return 0;
+}
