@@ -1,0 +1,16 @@
+// total amount of money earned in n days
+#include <iostream>
+using namespace std;
+int main(void)
+{
+int n;
+int total, rate;
+cout<<"Enter number of days worked: ";
+cin>>n;
+cout<<"Enter rate of work: ";
+cin>>rate;
+total = n * rate;
+cout<<" total amount of money you have earned is  Rs. ";
+cout<<total<<endl;
+return 0;
+}
